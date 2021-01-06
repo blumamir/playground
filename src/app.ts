@@ -1,11 +1,12 @@
 require('@aspecto/opentelemetry')({
     // logger: console,
-    local: true,
+    local: false,
     env: 'amir-test-env'
 });
 import express from 'express';
 import * as bodyParser from 'body-parser';
 import axios from 'axios';
+
 
 const port = 7070;
 const app = express()
