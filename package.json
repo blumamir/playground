@@ -1,19 +1,23 @@
 {
+  "name": "amir-playground",
+  "version": "1.0.0",
   "scripts": {
-    "start": "ts-node-dev src/app.ts"
+    "start": "ASPECTO_LIVE_PORT=61380 ts-node-dev --cls src/app.ts",
+    "aspecto:test": "aspecto test http://localhost:7070 -t efff5d31-b87b-4638-8fb4-e6253e8337f3 -e development --verbose"
   },
   "devDependencies": {
-    "@types/mongoose": "^5.7.1",
-    "ts-node": "^8.6.2",
-    "ts-node-dev": "^1.0.0-pre.44",
-    "tslint": "^6.0.0",
+    "@aspecto/cli": "^0.1.18",
+    "@types/mongoose": "^5.7.6",
+    "ts-node": "^8.7.0",
+    "ts-node-dev": "^1.0.0-pre.49",
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@aspecto/core": "^1.1.19",
+    "@aspecto/opentelemetry": "^0.0.91",
     "@types/express": "^4.17.2",
+    "axios": "^0.19.2",
     "express": "^4.17.1",
-    "mongoose": "^5.9.1",
+    "mongoose": "^5.9.6",
     "ts-mongoose": "^0.0.21"
   }
 }
