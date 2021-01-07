@@ -1,6 +1,6 @@
 require('@aspecto/opentelemetry')({
     // logger: console,
-    local: true,
+    local: false,
     env: 'amir-test-env'
 });
 import express from 'express';
@@ -9,7 +9,6 @@ import axios from 'axios';
 const x = require('aws-sdk');
 
 const { Consumer } = require('sqs-consumer');
-
 
 const sqs = Consumer.create({
     queueUrl: 'https://sqs.eu-west-1.amazonaws.com/731241200085/dev-amir',
