@@ -10,6 +10,7 @@ const x = require('aws-sdk');
 
 const { Consumer } = require('sqs-consumer');
 
+
 const sqs = Consumer.create({
     queueUrl: 'https://sqs.eu-west-1.amazonaws.com/731241200085/dev-amir',
     handleMessage: async (message: any) => {
