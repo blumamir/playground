@@ -5,6 +5,8 @@ instrument({
   exportBatchTimeout: 1,
 });
 
+console.log(process.env);
+
 import express from "express";
 const app = express();
 app.use("/ci-test-endpoint", (req, res, next) => {
