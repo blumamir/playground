@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@aspecto/opentelemetry-base@^0.0.0-2021-06-23--08-28":
-  version "0.0.0-2021-06-23--08-28"
-  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry-base/-/opentelemetry-base-0.0.0-2021-06-23--08-28.tgz#4988519fdd1c437c04dd790f0f525e2516f14f25"
-  integrity sha512-BevWpow+nX0xptBbf63RGtAGgRkQh5r/d7PLHmHzHizxuelZnK4pj8QmduIjfRqTcHUmzu034o4Tj4pKwle7rA==
+"@aspecto/opentelemetry-base@^0.0.0-2021-06-23--15-16":
+  version "0.0.0-2021-06-23--15-16"
+  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry-base/-/opentelemetry-base-0.0.0-2021-06-23--15-16.tgz#6b8f329357209d586cee9658e35f8c985ceed786"
+  integrity sha512-QllSmCw2ajvyhxwqer5v/ZPUiw9mfnQ7gGaJA+EeuaiElS4wqcufaPa2MZzhcNFGcadUy9ulxmA1a5s1N1bPVw==
 
-"@aspecto/opentelemetry-exporter-live@^0.0.0-2021-06-23--08-28":
-  version "0.0.0-2021-06-23--08-28"
-  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry-exporter-live/-/opentelemetry-exporter-live-0.0.0-2021-06-23--08-28.tgz#ba464f9a99e8e551041fea1e454e7ef3d34deb3c"
-  integrity sha512-9BLzTD6be3GtRLqKMHjvAUXjUDlwldMJU/qRyyWNdtizLic/HZRFe7mNd1XHspV6ovfWFlI0K/681VX/yQDAVQ==
+"@aspecto/opentelemetry-exporter-live@^0.0.0-2021-06-23--15-16":
+  version "0.0.0-2021-06-23--15-16"
+  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry-exporter-live/-/opentelemetry-exporter-live-0.0.0-2021-06-23--15-16.tgz#1c8e900996b7bb263a52730b50075dfab3467636"
+  integrity sha512-r3DzHkaGuEc/l61hDVQrM+PGxTtGvpGoFYosBzpMaCtIhiYku7F0IskzGE2GNRT6RAHmn8+mPOI+2UMtdqHM4w==
   dependencies:
     "@opentelemetry/api" "0.21.0"
     "@opentelemetry/core" "0.21.0"
@@ -27,23 +27,23 @@
     socket.io-client "^4.0.1"
     uuid "^8.2.0"
 
-"@aspecto/opentelemetry-instrumentation-mongodb@^0.0.0-2021-06-23--08-28":
-  version "0.0.0-2021-06-23--08-28"
-  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry-instrumentation-mongodb/-/opentelemetry-instrumentation-mongodb-0.0.0-2021-06-23--08-28.tgz#5986d191eda86baa8462937cdeb5837730656e4c"
-  integrity sha512-XYC/FF6pzbVZ+M/tnfw/Y3BcBdZjKbJn4i2aGxu/SBL1feJy9C+w7kG7yF87bFyV4KEXjJ4P+IIWyMrEGs64lg==
+"@aspecto/opentelemetry-instrumentation-mongodb@^0.0.0-2021-06-23--15-16":
+  version "0.0.0-2021-06-23--15-16"
+  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry-instrumentation-mongodb/-/opentelemetry-instrumentation-mongodb-0.0.0-2021-06-23--15-16.tgz#51c334a82944cad8b8f177b74d22eb8036b5aa59"
+  integrity sha512-5zrnWeackWrkQFy5GWEmc8epXNJhPG4EwlGsw/zq0vFdM8mVQg9A7wVntTjygUWJjN5zxbt5w1shL04BhHjMwA==
   dependencies:
     "@opentelemetry/api" "0.21.0"
     "@opentelemetry/instrumentation" "0.21.0"
     "@opentelemetry/semantic-conventions" "0.21.0"
 
-"@aspecto/opentelemetry@0.0.0-2021-06-23--08-28":
-  version "0.0.0-2021-06-23--08-28"
-  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry/-/opentelemetry-0.0.0-2021-06-23--08-28.tgz#fc2c281559786651ecd09f643a2b38d5c91b65dd"
-  integrity sha512-7cMs5wss8gh9+FUJkT2+lIONfjdmw66+2O/+GB2hlVu5XffqapNhw1sZxEtIwI1eSxA9s+pPHdaSk2kgNmTWig==
+"@aspecto/opentelemetry@0.0.0-2021-06-23--15-16":
+  version "0.0.0-2021-06-23--15-16"
+  resolved "https://registry.yarnpkg.com/@aspecto/opentelemetry/-/opentelemetry-0.0.0-2021-06-23--15-16.tgz#dd0036db2d36e77a7f9e7d7aea52d291d7cb9e20"
+  integrity sha512-IYPfG6Di/IIzgD7oIJ9Xo56DCJpuOCv2fgfPgIyd5pEvNRxcGp5+0ZSqaOcpn7RSzbzFy5SV/zP8/3IeNCzxCA==
   dependencies:
-    "@aspecto/opentelemetry-base" "^0.0.0-2021-06-23--08-28"
-    "@aspecto/opentelemetry-exporter-live" "^0.0.0-2021-06-23--08-28"
-    "@aspecto/opentelemetry-instrumentation-mongodb" "^0.0.0-2021-06-23--08-28"
+    "@aspecto/opentelemetry-base" "^0.0.0-2021-06-23--15-16"
+    "@aspecto/opentelemetry-exporter-live" "^0.0.0-2021-06-23--15-16"
+    "@aspecto/opentelemetry-instrumentation-mongodb" "^0.0.0-2021-06-23--15-16"
     "@aspecto/sampling-rules" "0.0.5"
     "@opentelemetry/api" "0.21.0"
     "@opentelemetry/context-async-hooks" "0.21.0"
@@ -75,7 +75,7 @@
     opentelemetry-instrumentation-typeorm "0.21.0"
     opentelemetry-propagation-utils "0.21.0"
     opentelemetry-resource-detector-deployment "0.21.0"
-    opentelemetry-resource-detector-git "0.0.0-2021-06-23--08-12"
+    opentelemetry-resource-detector-git "0.0.0-2021-06-23--15-11"
     opentelemetry-resource-detector-service "0.21.0"
     opentelemetry-resource-detector-sync-api "0.21.0"
     shimmer "1.2.1"
@@ -4097,14 +4097,14 @@ opentelemetry-resource-detector-deployment@0.21.0:
     "@opentelemetry/semantic-conventions" "^0.21.0"
     opentelemetry-resource-detector-sync-api "^0.21.0"
 
-opentelemetry-resource-detector-git@0.0.0-2021-06-23--08-12:
-  version "0.0.0-2021-06-23--08-12"
-  resolved "https://registry.yarnpkg.com/opentelemetry-resource-detector-git/-/opentelemetry-resource-detector-git-0.0.0-2021-06-23--08-12.tgz#7b4520a4a4617fdca70ded80101aceac9eaf5cd5"
-  integrity sha512-Xf7pfDKDP+u9oumsk93eMNdcP1j4bmSxa7Xe9of0ChJkStSwUrP9XYHUpPlVfSUwhA0+amQB1GanH8oJcPY4kg==
+opentelemetry-resource-detector-git@0.0.0-2021-06-23--15-11:
+  version "0.0.0-2021-06-23--15-11"
+  resolved "https://registry.yarnpkg.com/opentelemetry-resource-detector-git/-/opentelemetry-resource-detector-git-0.0.0-2021-06-23--15-11.tgz#03ad08a4990036765ee863cb2ecf963ac46602c9"
+  integrity sha512-RUEgNCWm6uTjHVum4cUx5XfiqvQFPV4wW+KStm0W82mjXvoazmmWFObtsa8HfWUgp7//OUSjD577l61mZvD/Ow==
   dependencies:
     "@opentelemetry/resources" "^0.21.0"
     "@opentelemetry/semantic-conventions" "^0.21.0"
-    opentelemetry-resource-detector-sync-api "^0.0.0-2021-06-23--08-12"
+    opentelemetry-resource-detector-sync-api "^0.0.0-2021-06-23--15-11"
     uuid "^8.3.2"
 
 opentelemetry-resource-detector-service@0.21.0:
@@ -4124,10 +4124,10 @@ opentelemetry-resource-detector-sync-api@0.21.0, opentelemetry-resource-detector
   dependencies:
     "@opentelemetry/resources" "^0.21.0"
 
-opentelemetry-resource-detector-sync-api@^0.0.0-2021-06-23--08-12:
-  version "0.0.0-2021-06-23--08-12"
-  resolved "https://registry.yarnpkg.com/opentelemetry-resource-detector-sync-api/-/opentelemetry-resource-detector-sync-api-0.0.0-2021-06-23--08-12.tgz#ee8e76f93b5aa111fac577d0f725096b60372001"
-  integrity sha512-CrtrpFAXTNc1SSY9ZP1mDV32LWtrAwxuzx9gzUpqoXX+I8N3ZjLkjGPO0MXv87+wJtdA3YbmpSHx4MR0XcH3Zw==
+opentelemetry-resource-detector-sync-api@^0.0.0-2021-06-23--15-11:
+  version "0.0.0-2021-06-23--15-11"
+  resolved "https://registry.yarnpkg.com/opentelemetry-resource-detector-sync-api/-/opentelemetry-resource-detector-sync-api-0.0.0-2021-06-23--15-11.tgz#85b845b5b4112d1ee5cd19165babd0f46150228a"
+  integrity sha512-WI5nPxilJimXSSX44pkS9In9WrKIyHOcacBvGDZAQEiMUGlUqdbEc9fgAo2kWb9DMItuIZYBnCyFn/zaq4uT5g==
   dependencies:
     "@opentelemetry/resources" "^0.21.0"
 
