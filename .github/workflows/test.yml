@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: yarn
+
       - run: yarn start &
       - run: sleep 2
       - run: yarn test
