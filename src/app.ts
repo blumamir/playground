@@ -11,7 +11,7 @@ console.log(gitSyncDetector.detect());
 import express from "express";
 const app = express();
 app.use("/ci-test-endpoint", (req, res, next) => {
-  res.json({ success: "this is text, not boolean" });
+  res.json({ success: "this is text, not boolean. from branch my-branch" });
 });
 
 app.listen(3456, () => console.log("listening on port 3456"));
