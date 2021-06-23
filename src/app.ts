@@ -5,7 +5,8 @@ instrument({
   exportBatchTimeout: 1,
 });
 
-console.log(process.env['GITHUB_SHA']);
+import { gitSyncDetector } from 'opentelemetry-resource-detector-git';
+console.log(gitSyncDetector.detect());
 
 import express from "express";
 const app = express();
