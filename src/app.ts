@@ -5,7 +5,7 @@ instrument({
   exportBatchTimeout: 1,
 });
 
-console.log(process.env);
+console.log(process.env['GITHUB_SHA']);
 
 import express from "express";
 const app = express();
