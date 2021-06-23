@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "hello world"
+      - run: yarn start &
+      - run: sleep 2
+      - run: yarn test

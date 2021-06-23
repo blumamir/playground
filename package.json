@@ -41,9 +41,7 @@
     ],
     "spec": "test/**/*.spec.ts",
     "require": [
-      "ts-node/register",
-      "./src/instrument.js",
-      "opentelemetry-instrumentation-mocha"
+      "ts-node/register"
     ]
   }
 }
