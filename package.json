@@ -2,22 +2,48 @@
   "name": "amir-playground",
   "version": "1.0.0",
   "scripts": {
+    "test": "mocha",
+    "build": "tsc",
     "start": "ts-node-dev --cls src/app.ts",
+    "start:noaspecto": "ts-node-dev --cls src/no-aspecto.ts",
     "aspecto:test": "aspecto test http://localhost:7070 -t efff5d31-b87b-4638-8fb4-e6253e8337f3 -e development --verbose"
   },
   "devDependencies": {
-    "@aspecto/cli": "^0.1.18",
-    "@types/mongoose": "^5.7.6",
+    "@types/jest": "^26.0.22",
+    "@types/mongoose": "^5.10.4",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
     "ts-node": "^8.7.0",
     "ts-node-dev": "^1.0.0-pre.49",
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@aspecto/opentelemetry": "^0.0.91",
+    "@aspecto/opentelemetry": "0.0.0-2021-06-23--08-28",
     "@types/express": "^4.17.2",
-    "axios": "^0.19.2",
+    "@types/pg": "^8.6.0",
+    "aws-sdk": "^2.889.0",
+    "axios": "^0.21.1",
+    "expect": "^27.0.1",
     "express": "^4.17.1",
-    "mongoose": "^5.9.6",
-    "ts-mongoose": "^0.0.21"
+    "ioredis": "^4.27.6",
+    "mocha": "^8.4.0",
+    "mongoose": "^5.12.3",
+    "pg": "^8.6.0",
+    "pino": "^6.11.3",
+    "protobufjs": "^6.10.2",
+    "sqs-consumer": "^5.5.0",
+    "ts-mongoose": "^0.0.21",
+    "ts-proto": "^1.79.7"
+  },
+  "mocha": {
+    "extension": [
+      "ts"
+    ],
+    "spec": "test/**/*.spec.ts",
+    "require": [
+      "ts-node/register",
+      "./src/instrument.js",
+      "opentelemetry-instrumentation-mocha"
+    ]
   }
 }
